@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Partículas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="controls">
+        <button onclick="setParticleType('water')">Agua</button>
+        <button onclick="setParticleType('sand')">Arena</button>
+        <button onclick="setParticleType('fire')">Fuego</button>
+        <button onclick="setParticleType('fuel')">Combustible</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
